@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #f8aa00;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.intro-text {
+  max-width: 60%;
+}
+
+.intro-text h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  background-color: #f8aa00;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.intro-image img {
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+.contact {
+  margin-top: 60px;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+  color: #f8aa00;
+}
+
+.contact form {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact form input {
+  padding: 12px;
+  border: 2px solid #f8aa00;
+  background-color: transparent;
+  border-radius: 25px;
+  color: white;
+  outline: none;
+}
+
+.contact form input:focus {
+  outline: none;
+}
+
+.contact form button {
+  grid-column: span 2;
+  margin-top: 10px;
+  background-color: #f8aa00;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.table-section {
+  margin-top: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+
+th, td {
+  padding: 15px;
+  border: 1px solid #f8aa00;
+  text-align: left;
+}
+
+tfoot {
+  background-color: #f8aa00;
+  color: black;
+  font-weight: bold;
+}
